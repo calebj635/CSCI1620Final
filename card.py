@@ -2,7 +2,7 @@ class Card:
     '''
     Class to represent on single playing card, with values of both face/number and category
     '''
-    def __init__(self, category, number):
+    def __init__(self, category: str, number: str):
         '''
         function initializes Card class
         :param category: represents the sign of the card, either Spade, Club, Heart, or Diamond
